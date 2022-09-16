@@ -271,6 +271,186 @@ public enum Modulnamen {
             return "BI138-EITS-ÜL";
         }
     },
+    NDBK {
+        @Override
+        public String toString() {
+            return "NDBK - Neue Datenbankkonzepte";
+        }
+        @Override
+        public Dozent dozent() {
+            return Dozent.EHLERS;
+        }
+        @Override
+        public String raum() {
+            return "C02-0.12 / HS-12 IuE";
+        }
+        @Override
+        public String abbrev() {
+            return "NDBK-VL";
+        }
+    },
+    NDBK_UL1 {
+        @Override
+        public String toString() {
+            return "NDBK - Neue Datenbankkonzepte ÜL";
+        }
+        @Override
+        public Dozent dozent() {
+            return Dozent.EHLERS;
+        }
+        @Override
+        public String raum() {
+            return "C12-2.70";
+        }
+        @Override
+        public String abbrev() {
+            return "NDBK-ÜL1";
+        }
+    },
+    IOT {
+        @Override
+        public String toString() {
+            return "BK121 - Embedded Systems/Internet of Things-AG";
+        }
+        @Override
+        public Dozent dozent() {
+            return Dozent.PATZ_ACKER;
+        }
+        @Override
+        public String raum() {
+            return "C13-3.22";
+        }
+        @Override
+        public String abbrev() {
+            return "BK121";
+        }
+    },
+    BK110 {
+        @Override
+        public String toString() {
+            return "BK110 - Hardwarenahe Programmierung";
+        }
+        @Override
+        public Dozent dozent() {
+            return Dozent.ACKER;
+        }
+        @Override
+        public String raum() {
+            return "C13-0.04";
+        }
+        @Override
+        public String abbrev() {
+            return "BK110-VL";
+        }
+    },
+    BK110_UL2 {
+        @Override
+        public String toString() {
+            return "BK110 - Hardwarenahe Programmierung ÜL";
+        }
+        @Override
+        public Dozent dozent() {
+            return Dozent.ACKER_SCHWATLO;
+        }
+        @Override
+        public String raum() {
+            return "C13-3.18";
+        }
+        @Override
+        public String abbrev() {
+            return "BK110-ÜL2";
+        }
+    },
+    XWIA {
+        @Override
+        public String toString() {
+            return "XWIA - Wissenschaftliches Arbeiten";
+        }
+        @Override
+        public Dozent dozent() {
+            return Dozent.KOPKA_PATZ;
+        }
+        @Override
+        public String raum() {
+            return "C12-2.71";
+        }
+        @Override
+        public String abbrev() {
+            return "XWIA";
+        }
+    },
+    ANF {
+        @Override
+        public String toString() {
+            return "ANF - Anforderungsmanagement";
+        }
+        @Override
+        public Dozent dozent() {
+            return Dozent.LUSSEM;
+        }
+        @Override
+        public String raum() {
+            return "C02-0.06 H6";
+        }
+        @Override
+        public String abbrev() {
+            return "ANF-VL";
+        }
+    },
+    ANF_UL1 {
+        @Override
+        public String toString() {
+            return "ANF - Anforderungsmanagement ÜL";
+        }
+        @Override
+        public Dozent dozent() {
+            return Dozent.LUSSEM;
+        }
+        @Override
+        public String raum() {
+            return "C13-3.01";
+        }
+        @Override
+        public String abbrev() {
+            return "ANF-ÜL1";
+        }
+    },
+    BI140 {
+        @Override
+        public String toString() {
+            return "BI140 - Neben- und Parallelläufigkeit mit C++";
+        }
+        @Override
+        public Dozent dozent() {
+            return Dozent.GREVE;
+        }
+        @Override
+        public String raum() {
+            return "C12-2.61";
+        }
+        @Override
+        public String abbrev() {
+            return "BI140-VL";
+        }
+    },
+    BI140_UL {
+        @Override
+        public String toString() {
+            return "BI140 - Neben- und Parallelläufigkeit mit C++ ÜL";
+        }
+        @Override
+        public Dozent dozent() {
+            return Dozent.GREVE;
+        }
+        @Override
+        public String raum() {
+            return "C12-2.61";
+        }
+        @Override
+        public String abbrev() {
+            return "BI140-ÜL";
+        }
+    }
     ;
 
     public abstract String raum();

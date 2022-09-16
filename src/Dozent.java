@@ -53,4 +53,36 @@ public enum Dozent {
             return "Eike Petersen & Hannes Eilers";
         }
     },
-}
+    EHLERS {
+        @Override
+        public String toString() {return "Prof. Jens Ehlers";}
+    },
+    PATZ_ACKER {
+        @Override
+        public String toString() {return "Prof. Patz & Prof. Acker";}
+    },
+    ACKER {
+        @Override
+        public String toString() {return "Prof. Acker";}
+    },
+
+    ACKER_SCHWATLO {
+        @Override
+        public String toString() {return "Prof. Acker & Hr. Schwatlo";}
+    },
+
+    KOPKA_PATZ {
+        @Override
+        public String toString() {return "Fr. Kopka & Prof. Patz";}
+    },
+    LUSSEM {
+        @Override
+        public String toString() {return "Prof. Lüssem";}
+    },
+    GREVE {
+        @Override
+        public String toString() {return "Hr. Greve";}
+    }
+
+
+    }
